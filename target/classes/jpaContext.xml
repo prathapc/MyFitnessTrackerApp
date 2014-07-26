@@ -7,7 +7,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-	<context:annotation-config></context:annotation-config>
+	<context:annotation-config />
 	
 	<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
 	
@@ -22,7 +22,7 @@
 		<property name="jpaPropertyMap">
 			<map>
 				<entry key="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"></entry>
-				<entry key="hibernate.hbm2ddl.auto" value="create"></entry>
+				<entry key="hibernate.hbm2ddl.auto" value="create-drop"></entry>
 				<entry key="hibernate.format_sql" value="true"></entry>
 			</map>
 		</property>
