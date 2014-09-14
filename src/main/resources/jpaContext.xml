@@ -42,4 +42,12 @@
 		<property name="password" value="root"></property>
 	</bean>
 	
+	<!-- DB name is 'fitness' in openshift.. -->
+	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/fitness"></property>
+		<property name="username" value="adminDdUyCvz"></property>
+		<property name="password" value="Gklt7H-HM43h"></property>
+	</bean> -->
+	
 </beans>
